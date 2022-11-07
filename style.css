@@ -1,0 +1,274 @@
+
+/*
+-----------------MAIN COLOR:#087f5b OR #099268
+-----------------GREY COLOR:#343a40 OR #495057
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    color: #343a40;
+    border-bottom: 8px solid #087f5b;
+}
+
+h1{
+    font-size: 40px;
+    line-height: 1.1;
+}
+
+.container{
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+body h2{
+    margin-bottom: 50px;
+}
+
+body div h3{
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+
+body div h2{
+    font-size: 28px;
+    letter-spacing: -0.5px;
+}
+
+body div h4{
+    margin-left: 12px;
+}
+
+/* .whatmakes .we .ourchairs{
+    font-size: 32px;
+} */
+
+.headersection{
+    margin-top: 20px;
+    margin-bottom: 80px;
+    font-size: 17px;
+}
+
+.headersection p{
+    margin-bottom: 15px;
+}
+
+.mainheader{
+    width: 400px;
+    height: 350px;
+}
+
+.mainheader{
+    display: grid;
+    grid-template-columns: 400px 500px;
+    gap: 50px;
+}
+
+.icon{
+    stroke: #087f5b;
+    width: 32px;
+    height: 32px;
+    margin-bottom: 15px;
+}
+
+.textpart{
+    padding-top: 35px;
+    line-height: 1.5;
+    animation: fromLeftToRight 3s ease-out;
+}
+
+@keyframes fromLeftToRight {
+    0%{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+.shop{    /*----------------------SHOP BUTTON------------------*/
+     margin-top: 15px;
+     text-transform: uppercase;
+     text-decoration: none;
+     background-color: #087f5b;
+     color: white;
+     padding: 12px 32px;
+     display: inline-block;
+     font-weight: 500;
+     border-radius: 200px;
+}
+
+.shop:hover,
+.shop:active{
+    background-color: #099268;
+}
+
+.headimg{   /*----------------------HEADER IMAGE------------------*/
+    border-radius: 3%;
+    animation: fromRightToLeft 3s ease-out;
+}
+
+@keyframes fromRightToLeft {
+    0%{
+        opacity: 0;
+        transform: translateX(100px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+.whatmakes{
+    margin-top: 180px;
+    margin-bottom: 30px;
+    animation: opacityToOne 3s ease-out;
+}
+
+@keyframes opacityToOne {
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+.three{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    line-height: 1.5;
+    animation: opacityToOne 3s ease-out;
+}
+
+.img{
+    width: 300px;
+    height: 200px;
+    border-radius: 12px;
+    /* border-radius: 5%; */
+}
+
+.we{
+    margin-bottom: 20px;
+}
+
+.girls{
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 8px;
+    color: #c3fae8;
+}
+
+.dialogue{
+    width: 600px;
+    height: 150px;
+    margin-top: 10px;
+}
+
+.womend{
+    font-style: italic;
+}
+
+.ourchairs{
+    margin-top: 40px;
+}
+
+.comments{
+    display: grid;
+    grid-template-columns: 300px 600px;
+    gap: 40px;
+    margin-top: 80px;
+    margin-bottom: 90px;
+}
+
+.comments{
+    background-color: #087f5b;
+    color: #e6fcf5;
+    padding: 30px;
+    border-radius: 13px;
+}
+
+.list{
+    margin-top: 10px;
+    list-style: none;
+    margin-left: 12px;
+    /* font-size: 16px; */
+}
+
+.cart{
+    margin-left: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #087f5b;
+    color: white;
+    padding: 6px 12px;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 200px;
+}
+
+.cart:hover,
+.cart:active{
+    background-color: #099268;
+}
+
+.productsimg{
+    border-radius: 5%;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.products{
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    gap: 54px;
+}
+
+.first{
+    width: 250px;
+    box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.1);
+}
+
+.second{
+    width: 250px;
+    box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.1);
+}
+
+.third{
+    width: 250px;
+    box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.1);
+}
+
+
+.icons{
+    stroke: #087f5b;
+    width: 24px;
+    height: 24px;
+    vertical-align: bottom;
+    margin-right: 7px;
+}
+
+/* .icons:hover{
+    stroke: white;
+    fill: #087f5b;
+} */
+
+footer{
+    margin-top: 75px;
+    font-size: 12px;
+    color: #495057;
+}
